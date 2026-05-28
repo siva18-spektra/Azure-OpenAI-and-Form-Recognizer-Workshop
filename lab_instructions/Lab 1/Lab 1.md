@@ -17,7 +17,7 @@ In this lab, you will complete the following tasks:
 * Task 1: Creating an Azure AI Document Intelligence Resource
 * Task 2: Train and Label data
 * Task 3: Build a new pipeline with the custom model module in BPA
-* Task 4: Configure Managed Identity Access for Azure AI Search
+* Task 4: Configure Managed Identity Access for Azure AI Search in the storage account
 * Task 5: Configure Azure AI Search
 * Task 6: Use Sample Search Application [Read Only]
 
@@ -228,7 +228,7 @@ In this task, you will create a custom document processing pipeline using the Bu
 
    ![Upload a document](images/pipeline-folder.png)
 
-## Task 4: Configure Managed Identity Access for Azure AI Search
+## Task 4: Configure Managed Identity Access for Azure AI Search in the storage account
 
 In this task, you will configure Managed Identity access for the Azure AI Search service to securely access data stored in the Azure Storage Account. You will assign the **Storage Blob Data Reader** role to the Azure AI Search managed identity using Azure Role-Based Access Control (RBAC).
 
@@ -363,6 +363,8 @@ In this lab, you have completed the following:
 - Trained and labeled data for a custom model.
 
 - Built a new pipeline using the custom model module in BPA.
+
+- Configured Managed Identity Access for Azure AI Search in the storage account
 
 - Configured Azure AI Search.
 
